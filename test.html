@@ -4,9 +4,185 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./bootstrap-5.2.3-dist/css/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>LA CASCADE</title>
 </head>
 <body>
-    <h1>My Name i My name Is.... </h1>
+<!----------------------------------------Navagator Section -------------------------------------------------------------->
+<nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container">
+            <a href="#Home" class="navbar-brand">La<span class="text-warning">Cascade</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button> 
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#special" class="nav-link">Special</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#menu" class="nav-link">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <button class="btn btn-outline-warning" type="submit">Order Now</button>
+
+        </div>
+    </nav>
+<!----------------------------------------Carousel Section-------------------------------------------------------------->
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+
+            <div class="carousel-item ">
+                <div class="overlay-image" style="background-image: url(./jay-wennington-N_Y88TWmGwA-unsplash.jpg);"></div>
+                <div class="carousel-caption d-md-block">
+                    <h1>Special</h1>
+                    <p>in this section we have a full view of our work such as how we participate in workin this section we have a full view of our work such as how we participate in work</p>
+                    <a href="#" class="btn btn-warning">Order Now</a>
+                </div>
+            </div>
+            <div class="carousel-item active">
+                <div class="overlay-image" style="background-image: url(./ivan-stern-LOLSb7m6XkU-unsplash.jpg);"></div>
+                <div class=" carousel-caption d-md-block">
+                    <h1>Home</h1>
+                    <p>in this section we have a full view of our work such as how we participate in workin this section we have a full view of our work such as how we participate in work</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="overlay-image" style="background-image:url(./marco-lastella-V9EKaWLK4Pw-unsplash.jpg) ;"></div>
+                <div class="carousel-caption d-md-block">
+                    <h1>Reserve</h1>
+                    <p>in this section we have a full view of our work such as how we participate in workin this section we have a full view of our work such as how we participate in work</p>
+                    <a href="#" class="btn btn-warning">Reserve Now</a>
+                </div>
+            </div>
+        </div>
+
+        <!--previous and next bottom -->
+        <a href="#myCarousel" class="carousel-control-prev" role="button" data-bs-slide="prev">
+            <span class="sr-only"></span>
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a href="#myCarousel" class="carousel-control-next" role="button" data-bs-slide="next">
+            <span class="sr-only"></span>
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+    </div>
+
+<!----------------------------------------Card sections -------------------------------------------------------------->
+    <section id="About">
+<!----------------------------------------Card ONe -------------------------------------------------------------->
+        <div class="container">
+            <div class="card my-5 border-0 rounded-0">
+                <div class="row gy-4 align-items-center">
+                    <div class="col-md-6">
+                        <img src="./edward-howell-hVtjc8qoQgg-unsplash.jpg" class="img-fluid">
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card-body">
+                            <h1 class="card-title">Our Story</h1>
+                            <div class="divider my-4"></div>
+                            <p class="card-text">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
+                            </p>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!----------------------------------------Card Tow -------------------------------------------------------------->
+        <div class="container">
+            <div class="card my-5 border-0 rounded-0">
+                <div class="row gy-4 align-items-center ">
+                    <div class="col-lg-6">
+                        <div class="card-body">
+                            <h1 class="card-titel">Our Futeres</h1>
+                            <div class="divider my-4"></div>
+                            <p class="card-text">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available. WikipediaIn publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available. Wikipedia</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="./austin-ban-IS6RwpuEJpY-unsplash.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+<!----------------------------------------Card Three-------------------------------------------------------------->
+        <div class="container">
+            <div class="card my-5 border-0 rounded-0">
+                <div class="row gy-4 align-items-center">
+                    <div class="col-md-6">
+                        <img src="./jay-wennington-N_Y88TWmGwA-unsplash.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-body">
+                            <h1 class="card-title">Us</h1>
+                            <div class="divider my-4"></div>
+                            <p class="card-text">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available. WikipediaIn publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available. Wikipedia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!----------------------------------------Location-------------------------------------------------------------->
+    <section id="maps">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h1 class="h1 mx ">Our Location</h1>
+                </div>
+            </div>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3194.672059231192!2d-10.066341690393891!3d28.99161405683175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb503faea046a89%3A0x9d74a4573d65ef9c!2sCaf%C3%A9%20%26%20bistro%20lacascade!5e0!3m2!1sfr!2sma!4v1669388902709!5m2!1sfr!2sma" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+    </section>
+    
+<!----------------------------------------Footer Section -------------------------------------------------------------->
+    <footer class="pt-5 pb-4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <div id="carsola" class="carousel slide" data-bs-ride="carousel" style="background-color: rgb(11, 10, 73);">
+                        <div class="carousel-inner">
+                        <div class="carousel-item active text-cenetr" style="color: white;">
+                            <img src="./profile photo/ben-den-engelsen-YUu9UAcOKZ4-unsplash.jpg" class="img-fluid rounded-circle text-cenetr" width="80px" height="100px" style="border:2px solid yellow ;">
+                            <h5>Achraf_Moreau</h5>
+                            <p>one of the best resturant that i visited and i will do as soon as i get to Morocco, thank you</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
