@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+*{
+    font-family: lora,serif;
+}
+.navbar{
+    font-weight: bold;
+}
+.navbar-brand{
+    font-family: 'Satisfy', cursive;
+}
+#myCarousel .carousel-item{
+    height: 32rem;
+    background-color:rgb(0, 0, 0);
+    color: white;
+    position: relative;
+    height: 100vh;
+
+}
+.carousel-item >.container{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-bottom:50px ;
+}
+.overlay-image{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: .5;
+}
+section{
+    padding-top: 120px;
+    
+}
+#About .divider{
+    width: 60px;
+    height: 2px;
+    display: block;
+    background-color: #f58d17;
+}
+.h1{
+    margin-top: 20px;  
+    border-bottom: #f58d17 2px solid ;  
+    text-align: center;
+}
