@@ -49,3 +49,10 @@ section{
     border-bottom: #f58d17 2px solid ;  
     text-align: center;
 }
+.socail-media-icons a{
+    font-size: 2rem;
+    color: beige;
+}
+.socail-media-icons a:hover{
+    color: #f58d17;
+}
