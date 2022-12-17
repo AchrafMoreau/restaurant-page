@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/5fff77269d.js" crossorigin="anonymous"></script>
     <title>LA CASCADE</title>
 </head>
     <style>
         body{
-            background-image: url(./image/marco-lastella-V9EKaWLK4Pw-unsplash.jpg);
+            background-image: rgb(206, 206, 206);
             background-attachment: fixed;
         }
         .card button:hover{
@@ -19,16 +20,26 @@
             transition: transform .5s;
         }
         .title{
-            background-color: #ddd;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             height: 20vh;
+            width: 100%;
+            background-image: url(./image/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+            background-position: center;
+            background-size: cover;
+            border-radius: 20px;
         }
         .prix{
             margin-top: 1rem;
         }
+        .mycard{
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
     </style>
 <body>
 <!----------------------------------------Navagator Section-------------------------------------------------------------->
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg bg-light" >
         <div class="container">
             <a href="#Home" class="navbar-brand">La<span class="text-warning">Cascade</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +57,7 @@
                         <a href="./Menu.html" class="nav-link">Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contact" class="nav-link">Contact</a>
+                        <a href="./contact.html" class="nav-link">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -54,14 +65,15 @@
 
         </div>
     </nav>
-<!----------------------------------------Navagator Section-------------------------------------------------------------->
-    <div class="container-fluid title">
-        <h2 class="text-center text-warning mt-4">Petite Dejeuner</h2>
+<!----------------------------------------Order Section-------------------------------------------------------------->
+<!------------------ first category ------------------------>
+    <div class="container-fluid title my-5">
+        <h1>Petite Dejeuner</h1>
     </div>
     <div class="container mt-4">
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col px-4">
-                <div class="card ">
+                <div class="card mycard">
                     <img src="./image/edward-howell-hVtjc8qoQgg-unsplash.jpg" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                         <h5 class="card-title">Petit Dejeuner</h5>
@@ -74,7 +86,7 @@
                 </div>
             </div>
             <div class="col px-4">
-                <div class="card">
+                <div class="card mycard">
                     <img src="./image/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                         <h5 class="card-title">Burgers</h5>
@@ -86,7 +98,7 @@
                 </div>
             </div>
             <div class="col px-4">
-                <div class="card">
+                <div class="card mycard">
                     <img src="./image/ivan-stern-LOLSb7m6XkU-unsplash.jpg" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                         <h5 class="card-title">Paninis</h5>
@@ -98,7 +110,7 @@
                 </div>
             </div>
             <div class="col px-4">
-                <div class="card">
+                <div class="card mycard">
                     <img src="./image/ben-den-engelsen-YUu9UAcOKZ4-unsplash.jpg" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                         <h5 class="card-title ">Sandwitch</h5>
@@ -111,13 +123,14 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid title">
-        <h2 class="text-center text-warning mt-4">Petite Dejgfahbdjjaskldjeuner</h2>
+<!------------------ second category ------------------------>
+    <div class="container-fluid title my-5">
+        <h1>Petite Dejgfahbdjjaskldjeuner</h1>
     </div>
     <div class="container mt-4">
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col px-4">
-                <div class="card ">
+                <div class="card mycard">
                     <img src="./image/edward-howell-hVtjc8qoQgg-unsplash.jpg" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                         <h5 class="card-title">Petit Dejeuner</h5>
@@ -130,7 +143,7 @@
                 </div>
             </div>
             <div class="col px-4">
-                <div class="card">
+                <div class="card mycard">
                     <img src="./image/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                         <h5 class="card-title">Burgers</h5>
@@ -142,7 +155,7 @@
                 </div>
             </div>
             <div class="col px-4">
-                <div class="card">
+                <div class="card mycard">
                     <img src="./image/ivan-stern-LOLSb7m6XkU-unsplash.jpg" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                         <h5 class="card-title">Paninis</h5>
@@ -154,7 +167,7 @@
                 </div>
             </div>
             <div class="col px-4">
-                <div class="card">
+                <div class="card mycard">
                     <img src="./image/ben-den-engelsen-YUu9UAcOKZ4-unsplash.jpg" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                         <h5 class="card-title ">Sandwitch</h5>
@@ -167,13 +180,14 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid title">
-        <h2 class="text-center text-warning mt-4">Petite Dejeuner</h2>
+<!------------------ third category ------------------------>
+    <div class="container-fluid title my-5">
+        <h1>Petite Dejeuner</h1>
     </div>
     <div class="container mt-4">
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col px-4">
-                <div class="card ">
+                <div class="card mycard">
                     <img src="./image/edward-howell-hVtjc8qoQgg-unsplash.jpg" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                         <h5 class="card-title">Petit Dejeuner</h5>
@@ -186,7 +200,7 @@
                 </div>
             </div>
             <div class="col px-4">
-                <div class="card">
+                <div class="card mycard">
                     <img src="./image/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                         <h5 class="card-title">Burgers</h5>
@@ -198,7 +212,7 @@
                 </div>
             </div>
             <div class="col px-4">
-                <div class="card">
+                <div class="card mycard">
                     <img src="./image/ivan-stern-LOLSb7m6XkU-unsplash.jpg" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                         <h5 class="card-title">Paninis</h5>
@@ -210,7 +224,7 @@
                 </div>
             </div>
             <div class="col px-4">
-                <div class="card">
+                <div class="card mycard">
                     <img src="./image/ben-den-engelsen-YUu9UAcOKZ4-unsplash.jpg" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                         <h5 class="card-title ">Sandwitch</h5>
@@ -222,6 +236,26 @@
                 </div>
             </div>
         </div>
-    </div> 
+    </div>
+<!----------------------------------------Footer Section -------------------------------------------------------------->
+    <div class="card text-center rounded-0 border-1 mt-5" style="background-color: rgb(49, 49, 49); color: #eee; height: 30%;">
+        <div class="card-body">
+            <h1 class="mt-4 card-title">Socail-Media</h1>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <div class="socail-media-icons">
+                <a class="mx-4" href="https://www.facebook.com/" target="_blank">
+                    <i class="fa-brands fa-facebook"></i></a>
+                <a class="mx-4"href="https://www.instagram.com/?hl=id" target="_blank">
+                    <i class="fa-brands fa-instagram"></i></a>
+                <a class="mx-4"href="https://twitter.com/" target="_blank">
+                    <i class="fa-brands fa-twitter"></i></a>
+                <a class="mx-4"href="https://www.youtube.com/index" target="_blank">
+                    <i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="card-footer text-white-50">
+            © 2022 Copyright : Achraf_Moreau & Dalal_Imehli
+        </div>
+    </div>
 </body>
 </html>
