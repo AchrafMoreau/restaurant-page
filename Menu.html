@@ -9,12 +9,16 @@
     <title>LA CASCADE</title>
 </head>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap');
         body{
             background-image: rgb(206, 206, 206);
             background-attachment: fixed;
         }
         .card button:hover{
-            transform: scale(.9);
+            transform: scale(0.95);
+            background-color: rgb(255, 234, 43);
+            color: rgb(34, 34, 34);
+
         }
         .card button{
             transition: transform .5s;
@@ -30,8 +34,21 @@
             background-size: cover;
             border-radius: 20px;
         }
-        .prix{
-            margin-top: 1rem;
+        .title > img{
+            opacity: 0.5;
+        }
+        .title > h1{
+            font-family: 'Noto Serif', serif;
+            font-style: italic;
+            font-size: 60px;
+        }
+        .botona {
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 0px 0px 2px 2px rgb(148, 126, 0);
+            border: none;
+            transition: 0.3s ease-in;
+            font-weight: bold;
         }
         .mycard{
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -68,56 +85,51 @@
 <!----------------------------------------Order Section-------------------------------------------------------------->
 <!------------------ first category ------------------------>
     <div class="container-fluid title my-5">
-        <h1>Petite Dejeuner</h1>
+        <h1 class="text-warning">Brakefasts</h1>
     </div>
     <div class="container mt-4">
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col px-4">
                 <div class="card mycard">
-                    <img src="./image/edward-howell-hVtjc8qoQgg-unsplash.jpg" class="card-img-top" alt="...">
+                    <img src="C:/Users/PC/Downloads/pttie dejourine.png" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                         <h5 class="card-title">Petit Dejeuner</h5>
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <div class="row">
-                            <p class="prix col border-1">50.00 dh</p><button class="col btn btn-warning ">Order</button>
-                        </div>
-                        
+                        <p class="prix border-1">50.00 dh</p>
+                        <button class="botona">Order</button>
                     </div>
                 </div>
             </div>
             <div class="col px-4">
                 <div class="card mycard">
-                    <img src="./image/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" class="card-img-top" alt="...">
+                    <img src="C:/Users/PC/Downloads/ptite dejourne.png" class="card-img-top" alt="...">
                     <div class="card-body text-center">
-                        <h5 class="card-title">Burgers</h5>
+                        <h5 class="card-title">Petit Dejeuner</h5>
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <div class="row">
-                            <p class="prix col border-1">50.00 dh</p><button class="col btn btn-warning">Order</button>
-                        </div>
+                        <p class="prix border-1">50.00 dh</p>
+                        <button class="botona">Order</button>
                     </div>
                 </div>
             </div>
             <div class="col px-4">
                 <div class="card mycard">
-                    <img src="./image/ivan-stern-LOLSb7m6XkU-unsplash.jpg" class="card-img-top" alt="...">
+                    <img src="C:/Users/PC/Downloads/petite dejourni.png" class="card-img-top" alt="...">
                     <div class="card-body text-center">
-                        <h5 class="card-title">Paninis</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                        <div class="row">
-                            <p class="prix col border-1">50.00 dh</p><button class="col btn btn-warning">Order</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col px-4">
-                <div class="card mycard">
-                    <img src="./image/ben-den-engelsen-YUu9UAcOKZ4-unsplash.jpg" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h5 class="card-title ">Sandwitch</h5>
+                        <h5 class="card-title">Petit Dejeuner</h5>
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <div class="row">
-                            <p class="prix col border-1">50.00 dh</p><button class="col btn btn-warning">Order</button>
-                        </div>
+                        <p class="prix border-1">50.00 dh</p>
+                        <button class="botona">Order</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col px-4">
+                <div class="card mycard">
+                    <img src="C:/Users/PC/Downloads/sdas.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Petit Dejeuner</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="prix border-1">50.00 dh</p>
+                        <button class="botona">Order</button>
                     </div>
                 </div>
             </div>
@@ -238,7 +250,7 @@
         </div>
     </div>
 <!----------------------------------------Footer Section -------------------------------------------------------------->
-    <div class="card text-center rounded-0 border-1 mt-5" style="background-color: rgb(49, 49, 49); color: #eee; height: 30%;">
+    <div class="card text-center rounded-0 border-1 mt-5" style="background-color: rgb(49, 49, 49); color: #eee; height: 10%;">
         <div class="card-body">
             <h1 class="mt-4 card-title">Socail-Media</h1>
             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
