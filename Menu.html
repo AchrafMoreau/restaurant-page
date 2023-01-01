@@ -9,10 +9,14 @@
     <title>LA CASCADE</title>
 </head>
     <style>
+        *{
+        }
         @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap');
         body{
             background-image: rgb(206, 206, 206);
             background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
         }
         .card button:hover{
             transform: scale(0.95);
@@ -24,23 +28,11 @@
             transition: transform .5s;
         }
         .category{
-            background-image: url(C:/Users/PC/Downloads/jugoslocos-QD4yCjlD44A-unsplash.jpg);
             background-position: center;
             background-size: cover;
-            padding: 30px;
             margin-bottom: 80px;
         }
         
-        .category .title{
-            font-family: 'Noto Serif', serif;
-            font-style: italic;
-            font-size: 60px;
-            color: beige;
-            text-decoration: underline;
-            text-decoration-color: rgb(224, 194, 20);
-            text-shadow: 2px 2px 5px black  ;
-            
-        }
         .botona {
             width: 100%;
             border-radius: 20px;
@@ -51,11 +43,44 @@
         }
         .mycard{
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+        .mycard > img{
+            height: 30vh;
+            object-fit: cover;
+            transition: all 0.5s;
+        }
+        .mycard > img:hover{
+            transform: scale(1.1);
+            height: 40vh;
+        }
+        .hero{
+            height: 30vh;
+            background-color: aliceblue;
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            transition: 0.5s ease-in ;
+            background-image: url(./image/ivan-stern-LOLSb7m6XkU-unsplash.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        .hero > h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 10px;
+            color: yellow;
+            font-family: 'Noto Serif';
+            height: 30vh;
+        }
+        .hero:hover{
+            height: 100vh;
         }
     </style>
 <body>
 <!----------------------------------------Navagator Section-------------------------------------------------------------->
-    <nav class="navbar navbar-expand-lg bg-light" >
+    <nav class="navbar navbar-expand-lg bg-light mb-5" >
         <div class="container">
             <a href="#Home" class="navbar-brand">La<span class="text-warning">Cascade</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -78,17 +103,14 @@
                 </ul>
             </div>
             <button class="btn btn-outline-warning" type="submit">Order Now</button>
-
         </div>
     </nav>
 <!----------------------------------------Order Section-------------------------------------------------------------->
 <!------------------ first category ------------------------>
-    <div class="container-fluid category">
+    <div class="hero my-5">
+        <h1 class="row">Home of the Cakes</h1>
         <div class="row">
-            <div class="col text-center"><h1 class="title">Cockatiel</h1></div>
-        </div>
-        <div class="row">
-            <div class="container mt-4">
+            <div class="container content">
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col-md-3 px-4">
                         <div class="card mycard">
@@ -103,7 +125,61 @@
                     </div>
                     <div class="col-md-3 px-4">
                         <div class="card mycard">
-                            <img src="C:/Users/PC/OneDrive/Desktop/image_page/coctial/mujito rouge.jpg" class="card-img-top" alt="...">
+                            <img src="C:/Users/PC/OneDrive/Desktop/image_page/coctial/mujito rouge.jpg" class="card-img-top" height="250vh">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Brakfst1</h3>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="prix border-1">50.00 dh</p>
+                                <button class="botona">Order</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 px-4">
+                        <div class="card mycard">
+                            <img src="C:/Users/PC/Downloads/petite dejourni.png" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Brakfst1</h3>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="prix border-1">50.00 dh</p>
+                                <button class="botona">Order</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 px-4">
+                        <div class="card mycard">
+                            <img src="C:/Users/PC/Downloads/sdas.png" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Brakfst1</h3>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="prix border-1">50.00 dh</p>
+                                <button class="botona">Order</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!------------------ first category ------------------------>
+    <div class="hero">
+        <h1 class="row">Home of the Cakes</h1>
+        <div class="row">
+            <div class="container content">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col-md-3 px-4">
+                        <div class="card mycard">
+                            <img src="C:/Users/PC/OneDrive/Desktop/image_page/coctial/mojito blue.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Mojito Green</h3>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="prix border-1">50.00 dh</p>
+                                <button class="botona">Order</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 px-4">
+                        <div class="card mycard">
+                            <img src="C:/Users/PC/OneDrive/Desktop/image_page/coctial/mujito rouge.jpg" class="card-img-top" height="250vh">
                             <div class="card-body text-center">
                                 <h3 class="card-title">Brakfst1</h3>
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
