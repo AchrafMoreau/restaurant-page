@@ -25,14 +25,8 @@
 
         }
         .card button{
-            transition: transform .5s;
+            transition: all .5s;
         }
-        .category{
-            background-position: center;
-            background-size: cover;
-            margin-bottom: 80px;
-        }
-        
         .botona {
             width: 100%;
             border-radius: 20px;
@@ -55,15 +49,11 @@
             height: 40vh;
         }
         .hero{
-            height: 30vh;
-            background-color: aliceblue;
+            height: 35vh;
             position: relative;
             width: 100%;
             overflow: hidden;
             transition: 0.5s ease-in ;
-            background-image: url(./image/ivan-stern-LOLSb7m6XkU-unsplash.jpg);
-            background-position: center;
-            background-size: cover;
         }
         .hero > h1{
             display: flex;
@@ -72,10 +62,34 @@
             padding-top: 10px;
             color: yellow;
             font-family: 'Noto Serif';
-            height: 30vh;
+            height: 35vh;
+            background-image: linear-gradient(rgb(0, 0, 0, 1), rgb(0, 0, 0, 0))
         }
         .hero:hover{
             height: 100vh;
+            width: 100%;
+            overflow-y: auto;
+
+        }
+        #one{
+            background-image: url(./image/Burgers/miha-rekar-ISVtBKNhJ2g-unsplash.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        #four{
+            background-image: url(./image/Pizza/getulio-moraes-Wz3u9_GtkWc-unsplash.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        #three{
+            background-image: url(./image/marco-lastella-V9EKaWLK4Pw-unsplash.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        #two{
+            background-image: url(./image/Tacos&Panini/tacos.jpeg);
+            background-position: center;
+            background-size: cover;
         }
     </style>
 <body>
@@ -107,7 +121,126 @@
     </nav>
 <!----------------------------------------Order Section-------------------------------------------------------------->
 <!------------------ first category ------------------------>
-    <div class="hero my-5">
+    <div class="hero my-5" id="one">
+        <h1 class="row">Burgers</h1>
+        <div class="row">
+            <div class="container content">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col-md-3 px-4">
+                        <div class="card mycard">
+                            <img src="./image/Burgers/amirali-mirhashemian-jh5XyK4Rr3Y-unsplash.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Mojito Green</h3>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="prix border-1">50.00 dh</p>
+                                <button class="botona">Order</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 px-4">
+                        <div class="card mycard">
+                            <img src="./image/Burgers/amirali-mirhashemian-sc5sTPMrVfk-unsplash.jpg" class="card-img-top" height="250vh">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Brakfst1</h3>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="prix border-1">50.00 dh</p>
+                                <button class="botona">Order</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 px-4">
+                        <div class="card mycard">
+                            <img src="./image/Burgers/eiliv-aceron-5nvt9BrLaAc-unsplash.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Brakfst1</h3>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="prix border-1">50.00 dh</p>
+                                <button class="botona">Order</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 px-4">
+                        <div class="card mycard">
+                            <img src="./image/Burgers/food-photographer-Fn6dPYtPUMc-unsplash.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Brakfst1</h3>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="prix border-1">50.00 dh</p>
+                                <button class="botona">Order</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 px-4">
+                        <div class="card mycard">
+                            <img src=".//image/Burgers/food-photographer-E94j3rMcxlw-unsplash.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Brakfst1</h3>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="prix border-1">50.00 dh</p>
+                                <button class="botona">Order</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!------------------ Second Category ----------------------->
+    <div class="hero my-5" id="two">
+        <h1 class="row">Tacos</h1>
+        <div class="row">
+            <div class="container content">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col-md-3 px-4">
+                        <div class="card mycard">
+                            <img src="./image/Tacos&Panini/tacos-poulet.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Mojito Green</h3>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="prix border-1">50.00 dh</p>
+                                <button class="botona">Order</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 px-4">
+                        <div class="card mycard">
+                            <img src="./image/Tacos&Panini/Tacos-viande-hachee.png" class="card-img-top" height="250vh">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Brakfst1</h3>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="prix border-1">50.00 dh</p>
+                                <button class="botona">Order</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 px-4">
+                        <div class="card mycard">
+                            <img src="./image/Tacos&Panini/tacos.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Brakfst1</h3>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="prix border-1">50.00 dh</p>
+                                <button class="botona">Order</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 px-4">
+                        <div class="card mycard">
+                            <img src="./image/Tacos&Panini/tacos_kababe.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Brakfst1</h3>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="prix border-1">50.00 dh</p>
+                                <button class="botona">Order</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!------------------ THird Category ------------------------>
+    <div class="hero my-5" id="three">
         <h1 class="row">Home of the Cakes</h1>
         <div class="row">
             <div class="container content">
@@ -160,8 +293,62 @@
             </div>
         </div>
     </div>
-<!------------------ first category ------------------------>
-    <div class="hero">
+<!------------------ Fourth Category ------------------------>
+    <div class="hero my-5" id="four">
+        <h1 class="row">Pizza</h1>
+        <div class="row">
+            <div class="container content">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col-md-3 px-4">
+                        <div class="card mycard">
+                            <img src="./image/Pizza/aurelien-lemasson-theobald-x00CzBt4Dfk-unsplash.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Mojito Green</h3>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="prix border-1">50.00 dh</p>
+                                <button class="botona">Order</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 px-4">
+                        <div class="card mycard">
+                            <img src="./image/Pizza/faizan-saeed-mwYTNZO0WhA-unsplash.jpg" class="card-img-top" height="250vh">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Brakfst1</h3>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="prix border-1">50.00 dh</p>
+                                <button class="botona">Order</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 px-4">
+                        <div class="card mycard">
+                            <img src="./image/Pizza/food-photographer-Xt84tIHbjRY-unsplash.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Brakfst1</h3>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="prix border-1">50.00 dh</p>
+                                <button class="botona">Order</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 px-4">
+                        <div class="card mycard">
+                            <img src="./image/Pizza/sarang-pande-msdTDnUxtEA-unsplash.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Brakfst1</h3>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="prix border-1">50.00 dh</p>
+                                <button class="botona">Order</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!------------------ Fifth Category ------------------------>
+    <div class="hero my-5" id="five">
         <h1 class="row">Home of the Cakes</h1>
         <div class="row">
             <div class="container content">
@@ -214,17 +401,26 @@
             </div>
         </div>
     </div>
-<!------------------ second category ------------------------>
-    <div class="container-fluid category ">
+<!------------------ Sixth Category ------------------------>
+    <div class="hero my-5" id="six">
+        <h1 class="row">Home of the Cakes</h1>
         <div class="row">
-            <div class="col text-center"><h1 class="title">Burgers</h1></div>
-        </div>
-        <div class="row">
-            <div class="container mt-4">
+            <div class="container content">
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col-md-3 px-4">
                         <div class="card mycard">
-                            <img src="C:/Users/PC/Downloads/pttie dejourine.png" class="card-img-top" alt="...">
+                            <img src="C:/Users/PC/OneDrive/Desktop/image_page/coctial/mojito blue.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Mojito Green</h3>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="prix border-1">50.00 dh</p>
+                                <button class="botona">Order</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 px-4">
+                        <div class="card mycard">
+                            <img src="C:/Users/PC/OneDrive/Desktop/image_page/coctial/mujito rouge.jpg" class="card-img-top" height="250vh">
                             <div class="card-body text-center">
                                 <h3 class="card-title">Brakfst1</h3>
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -235,20 +431,9 @@
                     </div>
                     <div class="col-md-3 px-4">
                         <div class="card mycard">
-                            <img src="C:/Users/PC/Downloads/ptite dejourne.png" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Petit Dejeuner</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="prix border-1">50.00 dh</p>
-                                <button class="botona">Order</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 px-4">
-                        <div class="card mycard">
                             <img src="C:/Users/PC/Downloads/petite dejourni.png" class="card-img-top" alt="...">
                             <div class="card-body text-center">
-                                <h5 class="card-title">Petit Dejeuner</h5>
+                                <h3 class="card-title">Brakfst1</h3>
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 <p class="prix border-1">50.00 dh</p>
                                 <button class="botona">Order</button>
@@ -259,90 +444,11 @@
                         <div class="card mycard">
                             <img src="C:/Users/PC/Downloads/sdas.png" class="card-img-top" alt="...">
                             <div class="card-body text-center">
-                                <h5 class="card-title">Petit Dejeuner</h5>
+                                <h3 class="card-title">Brakfst1</h3>
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 <p class="prix border-1">50.00 dh</p>
                                 <button class="botona">Order</button>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 px-4">
-                        <div class="card mycard">
-                            <img src="C:/Users/PC/Downloads/sdas.png" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Petit Dejeuner</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="prix border-1">50.00 dh</p>
-                                <button class="botona">Order</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 px-4">
-                        <div class="card mycard">
-                            <img src="C:/Users/PC/Downloads/sdas.png" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Petit Dejeuner</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="prix border-1">50.00 dh</p>
-                                <button class="botona">Order</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-<!------------------ third category ------------------------>
-    <div class="container-fluid title my-5">
-        <h1>Petite Dejeuner</h1>
-    </div>
-    <div class="container mt-4">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col px-4">
-                <div class="card mycard">
-                    <img src="./image/edward-howell-hVtjc8qoQgg-unsplash.jpg" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Petit Dejeuner</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <div class="row">
-                            <p class="prix col border-1">50.00 dh</p><button class="col btn btn-warning ">Order</button>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="col px-4">
-                <div class="card mycard">
-                    <img src="./image/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Burgers</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <div class="row">
-                            <p class="prix col border-1">50.00 dh</p><button class="col btn btn-warning">Order</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col px-4">
-                <div class="card mycard">
-                    <img src="./image/ivan-stern-LOLSb7m6XkU-unsplash.jpg" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Paninis</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                        <div class="row">
-                            <p class="prix col border-1">50.00 dh</p><button class="col btn btn-warning">Order</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col px-4">
-                <div class="card mycard">
-                    <img src="./image/ben-den-engelsen-YUu9UAcOKZ4-unsplash.jpg" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h5 class="card-title ">Sandwitch</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <div class="row">
-                            <p class="prix col border-1">50.00 dh</p><button class="col btn btn-warning">Order</button>
                         </div>
                     </div>
                 </div>
@@ -369,5 +475,6 @@
             © 2022 Copyright : Achraf_Moreau & Dalal_Imehli
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
