@@ -9,8 +9,6 @@
     <title>LA CASCADE</title>
 </head>
     <style>
-        *{
-        }
         @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap');
         body{
             background-image: rgb(206, 206, 206);
@@ -49,10 +47,9 @@
             height: 40vh;
         }
         .hero{
-            height: 35vh;
+            height: fit-content;
             position: relative;
             width: 100%;
-            overflow: hidden;
             transition: 0.5s ease-in ;
         }
         .hero > h1{
@@ -64,12 +61,6 @@
             font-family: 'Noto Serif';
             height: 35vh;
             background-image: linear-gradient(rgb(0, 0, 0, 1), rgb(0, 0, 0, 0))
-        }
-        .hero:hover{
-            height: 100vh;
-            width: 100%;
-            overflow-y: auto;
-
         }
         #one{
             background-image: url(./image/Burgers/miha-rekar-ISVtBKNhJ2g-unsplash.jpg);
