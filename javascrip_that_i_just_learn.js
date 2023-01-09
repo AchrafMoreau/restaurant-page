@@ -1,5 +1,4 @@
-
-
+// this is one of the things that i learn in javascript 
 let orderbtn = document.querySelectorAll('.botona');
 let modelcontent = document.getElementById("model-container");
 let closebtn = document.getElementById("close-btn");
